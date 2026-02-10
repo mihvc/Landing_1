@@ -63,11 +63,50 @@
     to {transform: rotate(360deg);}  
 }
 
-.title{
+.title_text{
     grid-area: C;
     font-size: 256px;
     text-align: end;
     align-self: end;
     margin: 0;
-    font-weight: 100;
+    position: relative;
 }
+
+#title_1{
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    font-size: inherit;
+    z-index: 0;
+}
+
+#title_2{
+    font-weight: 500;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    font-size: inherit;
+    color: #007eed; 
+    z-index: -1;
+}
+#title_3{
+    font-weight: 500;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    font-size: 256px;
+    color: #16588e;
+    z-index: -1;
+}
+
+#title_4{
+    font-weight: 500;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: inherit;
+    color: #f40000;
+    z-index: -2;
+}
+
