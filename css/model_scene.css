@@ -1,0 +1,97 @@
+.scene-model{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+        "A A A"
+        "B B B"
+        "C C C";
+        grid-template-rows: 20% 30% 50%;
+}
+
+.model_title{
+    grid-area: A;
+    width: 100%;
+    font-size: 96px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.model_spec{
+    grid-area: B;
+    font-size: 24px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-weight: 100;
+    
+}
+
+.model_spec_list{
+    list-style: none;
+    padding: 0;
+}
+
+.bmw_block{
+    grid-area: C;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.model_bmw_logo_image{
+    width: 15em;
+}
+
+.car_image_block{
+    position: relative;
+    width: fit-content;
+}
+
+.car_image{
+    width: 50em;
+    
+}
+
+.lines{
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.line,
+.label {
+    position: absolute;
+}
+
+.line-length {
+    bottom: 70px;
+    left: 10%;
+}
+
+.label-length {
+    bottom: 40px;
+    left: 15%;
+    transform: translateX(-50%);
+}
+
+.line-width {
+    bottom: 15%;
+    right: 135px;
+}
+
+.label-width {
+    bottom: 50px;
+    right: 160px;
+}
+
+.line-height {
+    right:15%;
+    bottom: 30%;
+}
+
+.label-height {
+    right: 5%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
