@@ -87,7 +87,7 @@
     bottom: 0px;
     right: 10px;
     font-size: inherit;
-    color: #007eed; 
+    color: #5e5e5e; 
     z-index: -1;
 }
 #title_3{
@@ -96,7 +96,7 @@
     bottom: 0px;
     right: 20px;
     font-size: 256px;
-    color: #16588e;
+    color: #5e5e5e;
     z-index: -1;
 }
 
@@ -106,7 +106,16 @@
     bottom: 0px;
     right: 0px;
     font-size: inherit;
-    color: #f40000;
+    color: #5e5e5e;
     z-index: -2;
 }
 
+#car{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 50%;
+    pointer-events: none;    z-index: 1;
+}
